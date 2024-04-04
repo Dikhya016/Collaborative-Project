@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+  }
+  
+  .header {
+    background-color: rgb(37, 37, 37);
+    color: rgb(209, 209, 209);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    padding: 1em 0.3em 1em 2em;
+  }
+  
+  .right_header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1em;
+    font-size: 13px;
+  }
+  
+  .logo {
+    margin-right: 1em;
+    width: 40px;
+    height: 40px;
+  }
+  
+  .right_header > div {
+    border: 1px solid rgb(85, 85, 85);
+    border-top: none;
+    border-left: none;
+    border-bottom: none;
+    padding-right: 1em;
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+  }
+  
+  .main_header {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .main_header > div:first-child {
+    width: 160px;
+    margin-left: 30px;
+  }
+  .more {
+    color: white;
+  }
+  .main_header > div > img {
+    width: 100%;
+  }
+  
+  .links {
+    display: flex;
+    gap: 1em;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 50px;
+  }
+  
+  .links > a {
+    color: rgb(12, 35, 64);
+  }
+  
+  .main_header > div:last-child {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+    padding-left: 150px;
+  }
+  
+  .searchInput {
+    display: flex;
+    width: 40%;
+    border: 1px solid;
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    margin-left: 20px;
+  }
+  ::placeholder {
+    font-size: 16px;
+  }
+  input {
+    padding: 11px;
+    font-size: 15px;
+    border-style: none;
+    outline: none;
+  }
+  .fa-search {
+    padding: 8px;
+    font-size: 24px;
+    color: rgb(41, 41, 41);
+    left: 0;
+    top: 0;
+  }
+  button {
+    /* margin-right: 150px; */
+    background-color: rgb(196, 12, 47);
+    color: white;
+    border-style: none;
+    padding: 1em 5em 1em 3em;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .truck {
+    color: white;
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-weight: 100;
+  }
+  h6 {
+    margin-right: 20px;
+  }
